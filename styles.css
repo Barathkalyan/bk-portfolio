@@ -123,24 +123,25 @@ section {
     box-shadow: 0 0 1rem var(--main-color);
     }
 .home-img .img-box {
-        position: relative;
-        width: 32vw;
-        height: 32vw;
-        border-radius: 50%;
-        padding: .5rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-        }
+    position: relative;
+    width: 32vw;
+    height: 32vw;
+    border-radius: 50%;
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
 .home-img.img-box .img-item {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        background: var(--bg-color);
-        border-radius: 50%;
-        border: .01rem solid var(--bg-color);
-        display: flex;
-        justify-content: center;
-        z-index: 1;
-        }
+    width: 100%;
+    height: 100%;
+    background: var(--bg-color);
+    border-radius: 50%;
+    border: .01rem solid var(--bg-color);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    overflow:hidden;
+    }
