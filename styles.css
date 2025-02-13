@@ -72,6 +72,12 @@ section {
     overflow: hidden;
 }
 
+section.active{
+    visibility: visible;
+    opacity: 1;
+    overflow: auto;
+}
+
 .home {
     display: flex;
     align-items: center;
